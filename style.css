@@ -1,3 +1,5 @@
 body {
   background-image: url("/assets/greeeen.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
