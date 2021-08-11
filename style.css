@@ -6,12 +6,12 @@ body {
 }
 
 .center {
-  margin: 0;
-  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  position:absolute;
   top: 50%;
+  transform: translateY(-50%) translateX(-50%);
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
 }
